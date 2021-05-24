@@ -1,0 +1,27 @@
+{
+  "name": "matching-api-app",
+  "version": "1.0.0",
+  "description": "matching api with express-mysql-mongodb",
+  "main": "main.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/main.js",
+    "start": "concurrently npm:start:*",
+    "test": "test"
+  },
+  "author": "Farhad Jafarov",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.2.0",
+    "cors": "^2.8.5",
+    "debug": "^2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.10",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7",
+    "reflect-metadata": "^0.1.13",
+    "ts-express-decorators": "^5.65.9"
+  }
+}
